@@ -14,4 +14,8 @@ We solved this problem using the Supremica software as following:
 * Creating a one-state automaton representing the specification;
 * Synthesizing all automatons and variables to create a Supervisor.
 
- 
+ Authors: 
+
+ Adeilson Leal
+ Jackson Guedes
+ Tobias Oliveira
