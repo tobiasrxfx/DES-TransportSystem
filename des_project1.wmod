@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Module xmlns="http://waters.sourceforge.net/xsd/module" xmlns:B="http://waters.sourceforge.net/xsd/base" Name="des_project1">
+<EventDeclList>
+<EventDecl Kind="CONTROLLABLE" Name="v1_1"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_2"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="v1_3"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_4"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_5"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_6"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_7"/>
+<EventDecl Kind="CONTROLLABLE" Name="v1_8"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_1"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_2"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="v2_3"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_4"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_5"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_6"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_7"/>
+<EventDecl Kind="CONTROLLABLE" Name="v2_8"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_1"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_2"/>
+<EventDecl Kind="UNCONTROLLABLE" Name="v3_3"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_4"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_5"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_6"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_7"/>
+<EventDecl Kind="CONTROLLABLE" Name="v3_8"/>
+</EventDeclList>
+<ComponentList>
+<SimpleComponent Kind="PLANT" Name="vehicle1">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S1">
+<PointGeometry>
+<Point X="192" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="256" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="320" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="384" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="453" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="527" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S7">
+<PointGeometry>
+<Point X="601" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="686" Y="160"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="v1_2"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="v1_3"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="v1_4"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="v1_5"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S5" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="v1_6"/>
+<LabelGeometry Anchor="NW">
+<Point X="-13" Y="11"/>
+</LabelGeometry>
+</LabelBlock>
+</Edge>
+<Edge Source="S6" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="v1_7"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S7" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="v1_8"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S8" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="v1_1"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="438" Y="315"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="PLANT" Name="vehicle2">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S4">
+<PointGeometry>
+<Point X="384" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="448" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="512" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S7">
+<PointGeometry>
+<Point X="576" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="645" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="719" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="793" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="878" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="v2_5"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S5" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="v2_6"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S6" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="v2_7"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S7" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="v2_8"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S8" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="v2_1"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="v2_2"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="v2_3"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="v2_4"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="633" Y="356"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="PLANT" Name="vehicle3">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="S7">
+<PointGeometry>
+<Point X="368" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S8">
+<PointGeometry>
+<Point X="432" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S1">
+<PointGeometry>
+<Point X="496" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S2">
+<PointGeometry>
+<Point X="560" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S3">
+<PointGeometry>
+<Point X="629" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S4">
+<PointGeometry>
+<Point X="703" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S5">
+<PointGeometry>
+<Point X="777" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+<SimpleNode Name="S6">
+<PointGeometry>
+<Point X="862" Y="192"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="0" Y="10"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="S7" Target="S8">
+<LabelBlock>
+<SimpleIdentifier Name="v3_8"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S8" Target="S1">
+<LabelBlock>
+<SimpleIdentifier Name="v3_1"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S1" Target="S2">
+<LabelBlock>
+<SimpleIdentifier Name="v3_2"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S2" Target="S3">
+<LabelBlock>
+<SimpleIdentifier Name="v3_3"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S3" Target="S4">
+<LabelBlock>
+<SimpleIdentifier Name="v3_4"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S4" Target="S5">
+<LabelBlock>
+<SimpleIdentifier Name="v3_5"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S5" Target="S6">
+<LabelBlock>
+<SimpleIdentifier Name="v3_6"/>
+</LabelBlock>
+</Edge>
+<Edge Source="S6" Target="S7">
+<LabelBlock>
+<SimpleIdentifier Name="v3_7"/>
+</LabelBlock>
+<SplineGeometry>
+<Point X="617" Y="356"/>
+</SplineGeometry>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<SimpleComponent Kind="SPEC" Name="S">
+<Graph>
+<NodeList>
+<SimpleNode Initial="true" Name="Controle">
+<PointGeometry>
+<Point X="112" Y="208"/>
+</PointGeometry>
+<LabelGeometry Anchor="NW">
+<Point X="-15" Y="44"/>
+</LabelGeometry>
+</SimpleNode>
+</NodeList>
+<EdgeList>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v1_2"/>
+<SimpleIdentifier Name="v2_2"/>
+<SimpleIdentifier Name="v3_2"/>
+<LabelGeometry Anchor="NW">
+<Point X="-192" Y="-111"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="115" Y="173"/>
+</SplineGeometry>
+<EndPointGeometry>
+<Point X="112" Y="208"/>
+</EndPointGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s2"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s1"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s2"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="-156" Y="-109"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v2_1"/>
+<SimpleIdentifier Name="v3_1"/>
+<SimpleIdentifier Name="v1_1"/>
+<LabelGeometry Anchor="NW">
+<Point X="-324" Y="-121"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="139" Y="184"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s1"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s1"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s8"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="-294" Y="-118"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v3_8"/>
+<SimpleIdentifier Name="v1_8"/>
+<SimpleIdentifier Name="v2_8"/>
+<LabelGeometry Anchor="NW">
+<Point X="228" Y="-140"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="148" Y="204"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s8"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s7"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s8"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="262" Y="-140"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v1_7"/>
+<SimpleIdentifier Name="v2_7"/>
+<SimpleIdentifier Name="v3_7"/>
+<LabelGeometry Anchor="NW">
+<Point X="158" Y="-168"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="137" Y="232"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s7"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s6"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s7"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="190" Y="-168"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v1_6"/>
+<SimpleIdentifier Name="v2_6"/>
+<SimpleIdentifier Name="v3_6"/>
+<LabelGeometry Anchor="NW">
+<Point X="104" Y="-183"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="108" Y="244"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s6"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s5"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s6"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="138" Y="-182"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v1_5"/>
+<SimpleIdentifier Name="v2_5"/>
+<SimpleIdentifier Name="v3_5"/>
+<LabelGeometry Anchor="NW">
+<Point X="39" Y="-177"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="84" Y="236"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s5"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s5"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s4"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="72" Y="-175"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+<Edge Source="Controle" Target="Controle">
+<LabelBlock>
+<SimpleIdentifier Name="v1_4"/>
+<SimpleIdentifier Name="v2_4"/>
+<SimpleIdentifier Name="v3_4"/>
+<LabelGeometry Anchor="NW">
+<Point X="-50" Y="-153"/>
+</LabelGeometry>
+</LabelBlock>
+<SplineGeometry>
+<Point X="74" Y="218"/>
+</SplineGeometry>
+<GuardActionBlock>
+<Guards>
+<BinaryExpression Operator="==">
+<SimpleIdentifier Name="s4"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Guards>
+<Actions>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s4"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+<BinaryExpression Operator="=">
+<SimpleIdentifier Name="s2"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</Actions>
+<LabelGeometry Anchor="NW">
+<Point X="-15" Y="-153"/>
+</LabelGeometry>
+</GuardActionBlock>
+</Edge>
+</EdgeList>
+</Graph>
+</SimpleComponent>
+<VariableComponent Name="s2">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s2"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s1">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s1"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s8">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s8"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s7">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s7"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s6">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s6"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s5">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s5"/>
+<IntConstant Value="0"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+<VariableComponent Name="s4">
+<VariableRange><BinaryExpression Operator="..">
+<IntConstant Value="0"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableRange>
+<VariableInitial><BinaryExpression Operator="==">
+<SimpleIdentifier Name="s4"/>
+<IntConstant Value="1"/>
+</BinaryExpression>
+</VariableInitial>
+</VariableComponent>
+</ComponentList>
+</Module>
