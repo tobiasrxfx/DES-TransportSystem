@@ -16,6 +16,6 @@ We solved this problem using the Supremica software as following:
 
  Authors: 
 
- Adeilson Leal
- Jackson Guedes
- Tobias Oliveira
+* Adeilson Leal
+* Jackson Guedes
+* Tobias Oliveira
