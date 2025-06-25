@@ -1,5 +1,5 @@
 # DES-TransportSystem
-In the course on Discre Event System (DES) at UFCG/Brazil we are asked for designing a simple system in order to apply the principles of supervisory control on DES. The problem descrition is as following: 
+In the Discrete Event Systems (DES) course at UFCG, Brazil, we were asked to design a simple system in order to apply the principles of supervisory control in DES. The problem statement is as follows:
 
 "A freight transport system consists of a circular track with 8 sections and 3 vehicles. Between each section there is a traffic light that controls the entry of a vehicle into the section. Except between sections 2 and 3.
 
